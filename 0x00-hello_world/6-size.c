@@ -1,11 +1,12 @@
 # include <stdio.h>
 
 /**
- *main- prints the sizes of various data types
- * Return- 0 if excuted correctly, non 0 otherwise
+ * main- prints the sizes of various data types
+ * Return: 0 if excuted correctly, non 0 otherwise
  */
 
 int main(void)
+
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
