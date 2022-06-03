@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *  
+ *
  * Return: Always 0 (Succes)
  */
 
@@ -12,7 +12,7 @@ int main(void)
 	int n;
 	int i;
 	int h;
-	
+
 	for (h = 0 ; h != 8 ; h++)
 	{
 		for (n = h + 1 ; n != 9 ; n++)
@@ -28,7 +28,8 @@ int main(void)
 					putchar(32);
 				}
 				i++;
-			}while (i != 10);
+			}
+			while (i != 10);
 		}
 	}
 	putchar('\n');
