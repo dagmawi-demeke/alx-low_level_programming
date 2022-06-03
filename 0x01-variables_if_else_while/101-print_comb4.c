@@ -9,6 +9,7 @@
 int main(void)
 
 {
+
 	int n;
 	int i;
 	int h;
