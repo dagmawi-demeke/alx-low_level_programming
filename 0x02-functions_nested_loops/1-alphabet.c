@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - program that print alphabet
  * Description: prints lowwer case alphabet
  * Return: Always 0.
+ *
  */
 
 void print_alphabet(void)
 {
 	char c;
-	int i;
 
-	for (i = 'a'; i <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
