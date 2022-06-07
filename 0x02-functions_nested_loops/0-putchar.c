@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
  * main - program that prints _putchar
- *
+ * Description: prints _putchar
  * Return: always 0 (Success)
  *
  */
